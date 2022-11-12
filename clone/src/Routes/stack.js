@@ -9,7 +9,7 @@ export function StackRoutes (){
         <Navigator 
         screenOptions = {{
             headerShown: false,
-        }}>
+        }} initialRouteName="Login">
             <Screen
                 name="Login"
                 component={Login}

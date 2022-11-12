@@ -3,7 +3,7 @@ import { LinearGradient } from "expo-linear-gradient";
 export const Gradient = () => {
     return (
         <LinearGradient
-            colors={['#00ffff', 'transparent', 'transparent', '#00ffff']}
+            colors={['#00ffff', 'transparent', 'transparent', 'transparent', '#00ffff']}
             style={{
                 position: 'absolute',
                 justifyContent: 'center',
