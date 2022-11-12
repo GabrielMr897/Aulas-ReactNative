@@ -5,7 +5,7 @@ import { Gradient } from "../../components/Gradient";
 export default function Login() {
   return (
     <View style={styles.container}>
-      <Gradient position = 'top'/>
+      <Gradient />
       <Text style={styles.title}>Login</Text>
       <Text>Digite seu login</Text>
       <Text>Digite sua senha</Text>
@@ -13,7 +13,6 @@ export default function Login() {
       <Text>ENTRAR</Text>
       <Text>Não possui cadastro? Cadastre-se!</Text>
       <StatusBar style="auto" />
-      <Gradient position = 'bottom'/>
     </View>
   );
 }
